@@ -1,0 +1,121 @@
+body{
+    overflow-y: hidden;
+}
+
+div{
+    -webkit-text-stroke-color: rgb(129, 98, 39);
+    -webkit-text-stroke-width: 1px;
+    font-family: Yu Mincho;
+}
+.t{
+    position: fixed;
+    font-size:40pt;
+    z-index: 99;
+    top: 0px;
+    left: 450px;
+}
+.a{
+    font-size: 40px;
+    position: fixed;
+    z-index: 1;
+    top: 250px;
+    left: 150px;
+    
+}
+.b{
+    font-size: 40px;
+    position: fixed;
+    z-index: 1;
+    top: 250px;
+    left: 775px;
+}
+.c{
+    font-size: 40px;
+    position: fixed;
+    z-index: 1;
+    top: 465px;
+    left: 395px;
+}
+.d{
+    font-size: 40px;
+    position: fixed;
+    z-index: 1;
+    top: 465px;
+    left: 1130px;
+}
+.ground{
+    position: fixed;
+    width: 1375px;
+    height: 755px;
+    top: 0px;
+    z-index: 0;
+    right: 0px;
+    
+}
+
+@media(max-width: 480px){
+    .t{
+        position: fixed;
+        z-index: 1;
+        font-size: 22pt;
+        top: 90px;
+        left: 70px;
+        background-color: rgba(219, 188, 131, 0.623);
+    }
+}
+@media(max-width: 480px){
+    .a{
+        position: fixed;
+        z-index: 99;
+        font-size: 20pt;
+        top: 330px;
+        left: 50px;
+    }
+}
+@media(max-width: 480px){
+    .b{
+        position: fixed;
+        z-index: 99;
+        width: 400px;
+        font-size: 20pt;
+        top: 330px;
+        left: 210px;
+
+    }
+}
+@media(max-width: 480px){
+    .c{
+        position: fixed;
+        z-index: 99;
+        font-size: 20pt;
+        top: 630px;
+        left: 45px;
+
+    }
+}
+@media(max-width: 480px){
+    .d{
+        position: fixed;
+        z-index: 99;
+        font-size: 20pt;
+        top: 630px;
+        left: 300px;
+
+    }
+}
+@media(max-width: 480px){
+    .ground{
+        display: none;
+    }
+}
+@media(max-width: 480px){
+    .tate{
+        position: fixed;
+        z-index: 0;
+        top: 0px;
+        left: 0px;
+        width: 420px;
+        height: 100vh;
+
+    }
+}
